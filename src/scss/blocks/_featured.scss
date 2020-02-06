@@ -1,0 +1,48 @@
+.featured {
+    height: 1170px;
+
+    &__head {
+        text-align: center;
+        padding-top: 130px;
+        padding-bottom: 125px;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        max-height: 358px;
+        max-width: 372px;
+
+        &:hover {
+            box-shadow: 3px 6px 7px rgba(0, 0, 0, 0.24);
+        }
+    }
+
+
+
+    &__name {
+        opacity: 0.9;
+        color: black;
+        font-family: 'Montserrat';
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 70px;
+        text-transform: uppercase;
+    }
+
+    &__subname {
+        opacity: 0.62;
+        color: black;
+        font-family: 'Merriweather';
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    &__block {
+        text-align: center;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+}

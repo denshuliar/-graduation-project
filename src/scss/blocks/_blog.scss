@@ -1,0 +1,251 @@
+.blog__box {
+    width: 100%;
+    height: 100%
+}
+
+img {
+    width: 100%;
+    height: 370px;
+}
+
+.blog__img {
+    margin-bottom: 15px;
+    position: relative
+}
+
+.blog__element,
+.blog__popup {
+    height: 96%;
+    position: absolute;
+    top: 0
+}
+
+.blog__element {
+    width: 94%;
+    padding: 105px 85px 45px 55px;
+    background-color: #000;
+    opacity: .6;
+    color: #fff
+}
+
+@media only screen and (max-width:1248px) {
+    .blog__element {
+        padding: 30px 85px 45px 55px
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .blog__element {
+        padding: 20px
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .blog__element {
+        padding: 105px 85px 45px 55px
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .blog__element {
+        padding: 20px;
+        overflow: scroll
+    }
+}
+
+@media only screen and (max-width:415px) {
+    .blog__element {
+        padding: 10px;
+        overflow: scroll
+    }
+}
+
+.blog__element-big {
+    width: 95.5%
+}
+
+.blog__popup {
+    visibility: hidden;
+    opacity: 0;
+    width: 95.5%;
+    padding: 60px 110px 150px 65px;
+    z-index: 10;
+    background-color: #71f6eb
+}
+
+@media only screen and (max-width:1024px) {
+    .blog__popup {
+        padding: 10px;
+        overflow: scroll
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .blog__popup {
+        padding: 50px 85px 45px 55px
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .blog__popup {
+        padding: 20px;
+        overflow: scroll
+    }
+}
+
+@media only screen and (max-width:415px) {
+    .blog__popup {
+        padding: 10px;
+        overflow: scroll
+    }
+}
+
+.blog__popup-small {
+    padding: 30px 30px 10px
+}
+
+@media only screen and (max-width:1024px) {
+    .blog__popup-small {
+        padding: 0;
+        overflow: scroll
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .blog__popup-small {
+        padding: 50px 85px 45px 55px
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .blog__popup-small {
+        padding: 20px;
+        overflow: scroll
+    }
+}
+
+.blog__popup--is-active {
+    visibility: visible;
+    opacity: 1;
+    transition: all .5s ease
+}
+
+.blog__title {
+    margin-bottom: 25px;
+    opacity: .95;
+    opacity: 0.95;
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:415px) {
+    .blog__popup-small {
+        padding: 10px;
+        overflow: scroll
+    }
+
+    .blog__title {
+        margin-bottom: 5px
+    }
+}
+
+.blog__title-top {
+    margin-bottom: 40px;
+    opacity: .83;
+    color: black;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:1024px) {
+    .blog__title-top {
+        margin-bottom: 10px
+    }
+}
+
+.blog__description {
+    margin-bottom: 60px;
+    opacity: 0.91;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+@media only screen and (max-width:1024px) {
+    .blog__description {
+        margin-bottom: 30px
+    }
+}
+
+.blog__description-top {
+    opacity: 0.75;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.blog__btn {
+    padding: 0;
+    border: none;
+    opacity: .8;
+    color: #fff;
+    background: transparent;
+    color: #f9fbfb;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 85px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.blog__btn:hover {
+    opacity: .3;
+    color: #fff
+}
+
+.blog__btn--is-close {
+    font-size: 40px;
+    border: none;
+    background: 0 0;
+    opacity: .4;
+    margin-top: 50px;
+    outline: none;
+}
+
+@media only screen and (max-width:560px) {
+    .blog__description-top {
+        margin-bottom: 0
+    }
+
+    .blog__btn--is-close {
+        font-size: 30px
+    }
+}
+
+@media only screen and (max-width:415px) {
+    .blog__description-top {
+        margin-bottom: 0
+    }
+
+    .blog__btn--is-close {
+        font-size: 30px
+    }
+}
+
+.blog__arrow {
+    width: 21px;
+    height: 14px;
+    opacity: 0.6;
+}

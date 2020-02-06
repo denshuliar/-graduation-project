@@ -1,0 +1,42 @@
+.services {
+    background-color: #f9fbfb;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    &__title {
+        opacity: 0.9;
+        color: black;
+        font-family: 'Montserrat';
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+
+    &__start {
+        text-align: center;
+    }
+
+    &__text {
+        margin-bottom: 120px;
+        opacity: 0.62;
+        color: black;
+        font-family: 'Merriweather', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 28px;
+        text-transform: uppercase;
+    }
+
+    @media only screen and (max-width:1024px) {
+        &__text {
+            margin-bottom: 80px
+        }
+    }
+
+    @media only screen and (max-width:768px) {
+        &__text {
+            margin-bottom: 50px
+        }
+    }
+}

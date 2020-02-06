@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+
+    &__logo {
+        border: 5.54px solid #170f1c;
+        padding: 0 4px;
+    }
+
+    &__name {
+        text-shadow: 0 0 2px rgba(21, 21, 22, 0.75);
+        font-family: 'Montserrat';
+        font-weight: 700;
+        line-height: 28px;
+        color: black;
+        font-size: 17px;
+    }
+
+    &__span {
+        color: #77efe5;
+        font-size: 21px;
+    }
+
+    i {
+        font-size: 30px;
+        opacity: 0.6;
+    }
+}

@@ -1,0 +1,210 @@
+.team {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    &__start {
+        padding-bottom: 120px;
+    }
+
+    &__name {
+        opacity: 0.9;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 28px;
+        text-transform: uppercase;
+        line-height: 42px;
+    }
+
+    &__subname {
+        opacity: 0.62;
+        color: black;
+        font-family: 'Merriweather', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 28px;
+        text-transform: uppercase;
+    }
+
+    &__unit {
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    &__unit:hover &__element {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease
+    }
+
+    &__link {
+        position: relative
+    }
+
+    &__element {
+        padding: 25px 50px 0;
+        position: absolute;
+        top: 30%;
+        visibility: hidden;
+        opacity: 0;
+        background-image: url(../img/team-background.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    @media only screen and (max-width:1024px) {
+        &__element {
+            width: 90%;
+            top: 30%;
+            right: 5%;
+            opacity: 1
+        }
+    }
+
+    @media only screen and (max-width:768px) {
+        &__element {
+            padding: 50px;
+            width: 80%;
+            top: 27%;
+            right: 10%;
+            opacity: 1
+        }
+    }
+
+    @media only screen and (max-width:993px) {
+        &__element {
+            padding: 50px;
+            width: 80%;
+            top: 27%;
+            right: 10%;
+            opacity: 1
+        }
+
+        &__description {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        &__list {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width:824px) {
+        &__element {
+            padding: 50px;
+            width: 80%;
+            top: 27%;
+            right: 10%;
+            opacity: 1
+        }
+    }
+
+    @media only screen and (max-width:736px) {
+        &__element {
+            padding: 50px;
+            padding-bottom: 0;
+            ;
+            width: 80%;
+            top: 30%;
+            right: 10%;
+            opacity: 1
+        }
+    }
+
+    @media only screen and (max-width:640px) {
+        &__element {
+            padding: 50px;
+            padding-bottom: 0;
+            width: 80%;
+            top: 28%;
+            right: 10%;
+            visibility: visible;
+            opacity: 1
+        }
+    }
+
+    @media only screen and (max-width:415px) {
+        &__element {
+            padding: 40px;
+            padding-bottom: 15px;
+            ;
+            width: 90%;
+            top: 24%;
+            right: 5%;
+            visibility: visible;
+            opacity: 1
+        }
+    }
+
+    @media only screen and (max-width:415px) {
+        &__element {
+            visibility: hidden;
+        }
+    }
+
+    &__title {
+        margin-bottom: 25px;
+        padding-top: 20px;
+        opacity: 0.95;
+        font-family: 'Merriweather', sans-serif;
+        line-height: 24px;
+        color: #272727;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    @media only screen and (max-width:1024px) {
+        &__title {
+            margin-bottom: 15px
+        }
+    }
+
+    &__title--latina {
+        font-size: 15px;
+        font-style: italic;
+        color: #767070;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    &__description {
+        margin-bottom: 35px;
+        opacity: 0.8;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    @media only screen and (max-width:1024px) {
+        &__description {
+            margin-bottom: 10px
+        }
+    }
+
+    &__list {
+        margin-bottom: 20px;
+        display: flex;
+        padding-left: 15px;
+    }
+
+    &__item {
+        padding-right: 15px
+    }
+
+    &__social {
+        opacity: .7;
+        color: #000
+    }
+}
