@@ -1,3 +1,4 @@
+AOS.init();
 $('.blog__btn').click(function (e) {
     var elemId = '#js-popup-' + $(this).data('order');
     $(elemId).addClass('blog__popup--is-active');
