@@ -1,0 +1,101 @@
+.modal {
+    &__btn-box {
+        padding-top: 200px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, .6)
+    }
+
+    &__btn-box--is-active {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        outline: none;
+    }
+
+
+    &__menu {
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease
+    }
+
+    &__form {
+        padding: 30px 10px 20px;
+        position: relative;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background-color: #fff
+    }
+
+    &__field,
+    &__massage {
+        margin-bottom: 10px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, .4);
+        padding: 4px 5px;
+        outline: none;
+        opacity: 0.6;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+
+        &:focus {
+
+            border-bottom: 2px solid rgba(0, 0, 0, 1);
+        }
+    }
+
+    &__button {
+        width: 50%;
+        border: none;
+        background-color: #71f6eb;
+        padding: 6px 0;
+    }
+
+    &__button:hover {
+        color: #fff;
+        border: 1px solid black;
+        background: rgba(0, 0, 0, .3);
+    }
+
+    @media only screen and (max-width:1024px) {
+        &__button {
+            width: 100%
+        }
+    }
+
+    &__close-btn {
+        position: absolute;
+        top: -6%;
+        right: 4%;
+        z-index: 10;
+        font-size: 40px;
+        border: none;
+        background: transparent;
+        padding-top: 10px;
+    }
+
+    &__menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+        transition: all .5s ease
+    }
+
+    &__menu--is-active {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+}
