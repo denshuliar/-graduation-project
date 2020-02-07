@@ -3985,7 +3985,6 @@ img {
     font-weight: 400;
     line-height: 51px; }
   .forma__massage {
-    margin-bottom: 35px;
     padding: 30px 10px 30px 10px;
     border-bottom: 2px solid #606e77; }
   .forma__massage::-webkit-input-placeholder {
@@ -4020,14 +4019,72 @@ img {
     font-weight: 400;
     line-height: 28px;
     text-transform: uppercase;
-    padding: 10px; }
+    padding: 10px;
+    -webkit-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+    margin-top: 35px; }
   .forma__btn:hover {
-    color: #fff; }
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background: transparent;
+    margin-top: 32px; }
   @media only screen and (max-width: 768px) {
     .forma__btn {
       width: 100%; } }
   .forma__web {
     margin-top: 20px; }
+
+.footer {
+  padding: 90px 0;
+  background-color: #262b2e; }
+  .footer__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .footer__title {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px; }
+  .footer__copywrite, .footer__link {
+    text-align: center;
+    opacity: 0.4;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px; }
+  .footer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .footer__item {
+    margin-right: 10px; }
+  .footer__link {
+    padding-top: 5px;
+    width: 45px;
+    height: 40px;
+    display: block;
+    font-size: 23px;
+    background-color: #424648; }
+  .footer__link:hover {
+    opacity: 1;
+    color: #000;
+    background-color: #71f6eb; }
+  .footer__copywrite {
+    padding-top: 40px; }
 
 .swiper-container {
   width: 100%;

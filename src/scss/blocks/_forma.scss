@@ -128,7 +128,6 @@
     }
 
     &__massage {
-        margin-bottom: 35px;
         padding: 30px 10px 30px 10px;
         border-bottom: 2px solid #606e77;
     }
@@ -175,10 +174,15 @@
         line-height: 28px;
         text-transform: uppercase;
         padding: 10px;
+        transition: 0.3s linear;
+        margin-top: 35px;
     }
 
     &__btn:hover {
-        color: #fff
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, .7);
+        background: transparent;
+        margin-top: 32px;
     }
 
     @media only screen and (max-width:768px) {
