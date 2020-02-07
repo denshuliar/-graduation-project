@@ -3206,7 +3206,8 @@ html {
     margin-left: auto !important; } }
 
 .header {
-  height: 810px;
+  padding-top: 60px;
+  padding-bottom: 120px;
   opacity: 0.99;
   background-color: #eff0f2;
   display: -webkit-box;
@@ -3250,6 +3251,10 @@ html {
       opacity: 0.7;
       background-color: #505050;
       color: #76f4ea; }
+  @media only screen and (max-width: 425px) {
+    .header__title {
+      font-size: 18px;
+      line-height: 24px; } }
 
 .nav {
   display: -webkit-box;
@@ -3257,8 +3262,7 @@ html {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding-top: 65px; }
+  justify-content: space-between; }
   .nav__logo {
     border: 5.54px solid #170f1c;
     padding: 0 4px; }
@@ -3277,8 +3281,8 @@ html {
     opacity: 0.6; }
 
 .about {
-  height: 985px;
-  background-color: #f8fafa;
+  padding-top: 120px;
+  padding-bottom: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3288,6 +3292,8 @@ html {
   .about__head {
     text-align: center;
     padding-bottom: 150px; }
+  .about__block {
+    text-align: center; }
   .about__img {
     height: 100%; }
   .about__title {
@@ -3347,12 +3353,19 @@ html {
       opacity: 0.8;
       -webkit-box-shadow: 3.5px 8.3px 10px rgba(0, 0, 0, 0.24);
       box-shadow: 3.5px 8.3px 10px rgba(0, 0, 0, 0.24); }
+  @media only screen and (max-width: 425px) {
+    .about__name {
+      font-size: 16px; }
+    .about__subname {
+      font-size: 12px;
+      line-height: 24px;
+      padding-bottom: 20px; } }
 
 .featured {
-  padding-bottom: 120px; }
+  padding-bottom: 120px;
+  padding-top: 130px; }
   .featured__head {
     text-align: center;
-    padding-top: 130px;
     padding-bottom: 125px; }
   .featured__img {
     width: 100%;
@@ -3382,6 +3395,25 @@ html {
     text-align: center;
     height: 100%;
     margin-bottom: 30px; }
+  @media only screen and (max-width: 768px) {
+    .featured .featured {
+      padding-top: 80px;
+      padding-bottom: 60px; }
+    .featured__head {
+      padding-bottom: 60px; } }
+
+@media only screen and (max-width: 768px) and (max-width: 400px) {
+  .featured .featured {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+  .featured__name {
+    font-size: 24px; }
+  .featured__subname {
+    font-size: 12px; } }
+
+@media only screen and (max-width: 768px) and (max-width: 365px) {
+  .featured__img {
+    margin-bottom: 70px; } }
 
 .services {
   background-color: #f9fbfb;
@@ -3851,6 +3883,31 @@ img {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
+  @media only screen and (max-width: 683px) {
+    .says__logo {
+      display: none; } }
+  @media only screen and (max-width: 768px) {
+    .says .says {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+    .says__start {
+      padding-bottom: 80px; } }
+  @media only screen and (max-width: 425px) {
+    .says .says {
+      padding-top: 30px;
+      padding-bottom: 30px; }
+    .says__start {
+      padding-bottom: 40px; } }
+  @media only screen and (max-width: 425px) {
+    .says__name {
+      font-size: 32px;
+      padding-bottom: 10px; } }
+  @media only screen and (max-width: 425px) {
+    .says__name {
+      font-size: 24px; }
+    .says__subname {
+      font-size: 12px;
+      line-height: 20px; } }
 
 .rating {
   display: -webkit-box;
@@ -3916,6 +3973,8 @@ img {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-top: 120px;
     margin-bottom: 80px;
     background-color: rgba(0, 0, 0, 0.71); }
@@ -4044,6 +4103,12 @@ img {
       width: 100%; } }
   .forma__web {
     margin-top: 20px; }
+  @media only screen and (max-width: 425px) {
+    .forma__block a {
+      font-size: 12px; }
+    .forma__block {
+      margin-top: 60px;
+      margin-bottom: 40px; } }
 
 .footer {
   padding: 90px 0;
@@ -4095,6 +4160,12 @@ img {
     background-color: #71f6eb; }
   .footer__copywrite {
     padding-top: 40px; }
+  @media only screen and (max-width: 425px) {
+    .footer__footer {
+      padding: 50px 0; }
+    .footer__copywrite {
+      padding-top: 30px;
+      font-size: 12px; } }
 
 .modal__btn-box {
   padding-top: 200px;

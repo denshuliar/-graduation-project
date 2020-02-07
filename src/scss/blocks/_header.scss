@@ -1,5 +1,6 @@
 .header {
-    height: 810px;
+    padding-top: 60px;
+    padding-bottom: 120px;
     opacity: 0.99;
     background-color: #eff0f2;
     display: flex;
@@ -51,6 +52,13 @@
             background-color: #505050;
             color: #76f4ea;
             ;
+        }
+    }
+
+    @media only screen and (max-width:425px) {
+        &__title {
+            font-size: 18px;
+            line-height: 24px;
         }
     }
 }

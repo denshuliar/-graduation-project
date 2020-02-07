@@ -1,12 +1,16 @@
 .about {
-    height: 985px;
-    background-color: #f8fafa;
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     align-items: center;
 
     &__head {
         text-align: center;
         padding-bottom: 150px;
+    }
+
+    &__block {
+        text-align: center;
     }
 
     &__img {
@@ -77,6 +81,18 @@
             border: 2px solid #76f4ea;
             opacity: 0.8;
             box-shadow: 3.5px 8.3px 10px rgba(0, 0, 0, 0.24);
+        }
+    }
+
+    @media only screen and (max-width:425px) {
+        &__name {
+            font-size: 16px;
+        }
+
+        &__subname {
+            font-size: 12px;
+            line-height: 24px;
+            padding-bottom: 20px;
         }
     }
 }

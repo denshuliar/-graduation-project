@@ -1,9 +1,9 @@
 .featured {
     padding-bottom: 120px;
+    padding-top: 130px;
 
     &__head {
         text-align: center;
-        padding-top: 130px;
         padding-bottom: 125px;
     }
 
@@ -44,5 +44,37 @@
         text-align: center;
         height: 100%;
         margin-bottom: 30px;
+    }
+
+    @media only screen and (max-width:768px) {
+        .featured {
+            padding-top: 80px;
+            padding-bottom: 60px;
+        }
+
+        &__head {
+            padding-bottom: 60px;
+        }
+
+        @media only screen and (max-width:400px) {
+            .featured {
+                padding-top: 40px;
+                padding-bottom: 30px;
+            }
+
+            &__name {
+                font-size: 24px;
+            }
+
+            &__subname {
+                font-size: 12px;
+            }
+        }
+
+        @media only screen and (max-width:365px) {
+            &__img {
+                margin-bottom: 70px;
+            }
+        }
     }
 }
