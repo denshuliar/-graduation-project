@@ -3254,7 +3254,10 @@ html {
   @media only screen and (max-width: 425px) {
     .header__title {
       font-size: 18px;
-      line-height: 24px; } }
+      line-height: 24px; }
+    .header {
+      padding-top: 30px;
+      padding-bottom: 40px; } }
 
 .nav {
   display: -webkit-box;
@@ -3359,7 +3362,12 @@ html {
     .about__subname {
       font-size: 12px;
       line-height: 24px;
-      padding-bottom: 20px; } }
+      padding-bottom: 20px; }
+    .about {
+      padding-top: 30px;
+      padding-bottom: 30px; }
+    .about__head {
+      padding-bottom: 50px; } }
 
 .featured {
   padding-bottom: 120px;
@@ -3403,7 +3411,7 @@ html {
       padding-bottom: 60px; } }
 
 @media only screen and (max-width: 768px) and (max-width: 400px) {
-  .featured .featured {
+  .featured {
     padding-top: 40px;
     padding-bottom: 30px; }
   .featured__name {
@@ -3413,7 +3421,7 @@ html {
 
 @media only screen and (max-width: 768px) and (max-width: 365px) {
   .featured__img {
-    margin-bottom: 70px; } }
+    margin-bottom: 30px; } }
 
 .services {
   background-color: #f9fbfb;
@@ -3444,6 +3452,10 @@ html {
   @media only screen and (max-width: 768px) {
     .services__text {
       margin-bottom: 50px; } }
+  @media only screen and (max-width: 768px) {
+    .services {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
 
 .blog__box {
   width: 100%;
@@ -3769,7 +3781,12 @@ img {
     font-weight: 700; }
   @media only screen and (max-width: 1024px) {
     .team__title {
-      margin-bottom: 15px; } }
+      margin-bottom: 15px; }
+    .team {
+      padding-top: 40px;
+      padding-bottom: 40px; }
+    .team__start {
+      padding-bottom: 30px; } }
   .team__title--latina {
     font-size: 15px;
     font-style: italic;
@@ -3887,22 +3904,21 @@ img {
     .says__logo {
       display: none; } }
   @media only screen and (max-width: 768px) {
-    .says .says {
+    .says {
       padding-top: 60px;
       padding-bottom: 60px; }
     .says__start {
       padding-bottom: 80px; } }
   @media only screen and (max-width: 425px) {
-    .says .says {
+    .says {
       padding-top: 30px;
       padding-bottom: 30px; }
     .says__start {
-      padding-bottom: 40px; } }
-  @media only screen and (max-width: 425px) {
+      padding-bottom: 40px; }
     .says__name {
       font-size: 32px;
       padding-bottom: 10px; } }
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 325px) {
     .says__name {
       font-size: 24px; }
     .says__subname {
@@ -3948,6 +3964,13 @@ img {
       transition: 0.3s linear; }
   .clients__block {
     text-align: center; }
+  @media only screen and (max-width: 425px) {
+    .clients {
+      padding-top: 0;
+      padding-bottom: 20px; }
+    .clients__img {
+      width: 100%;
+      height: 100%; } }
 
 .forma {
   background-image: url(../img/head.png);

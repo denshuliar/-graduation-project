@@ -113,7 +113,7 @@
     }
 
     @media only screen and (max-width:768px) {
-        .says {
+        & {
             padding-top: 60px;
             padding-bottom: 60px;
         }
@@ -124,7 +124,7 @@
     }
 
     @media only screen and (max-width:425px) {
-        .says {
+        & {
             padding-top: 30px;
             padding-bottom: 30px;
         }
@@ -132,16 +132,14 @@
         &__start {
             padding-bottom: 40px;
         }
-    }
 
-    @media only screen and (max-width:425px) {
         &__name {
             font-size: 32px;
             padding-bottom: 10px;
         }
     }
 
-    @media only screen and (max-width:425px) {
+    @media only screen and (max-width:325px) {
         &__name {
             font-size: 24px;
         }

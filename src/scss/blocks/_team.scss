@@ -167,6 +167,15 @@
         &__title {
             margin-bottom: 15px
         }
+
+        & {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        &__start {
+            padding-bottom: 30px;
+        }
     }
 
     &__title--latina {

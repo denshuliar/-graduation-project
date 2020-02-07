@@ -57,7 +57,7 @@
         }
 
         @media only screen and (max-width:400px) {
-            .featured {
+            & {
                 padding-top: 40px;
                 padding-bottom: 30px;
             }
@@ -73,7 +73,7 @@
 
         @media only screen and (max-width:365px) {
             &__img {
-                margin-bottom: 70px;
+                margin-bottom: 30px;
             }
         }
     }
