@@ -3349,7 +3349,7 @@ html {
       box-shadow: 3.5px 8.3px 10px rgba(0, 0, 0, 0.24); }
 
 .featured {
-  height: 1170px; }
+  padding-bottom: 120px; }
   .featured__head {
     text-align: center;
     padding-top: 130px;
