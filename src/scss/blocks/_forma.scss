@@ -1,14 +1,11 @@
 .forma {
     background-image: url(../img/head.png);
     background-repeat: no-repeat;
-    background-position: bottom;
     background-size: cover;
 
     &__box {
-        opacity: 0.67;
-        background-color: #f8fafb;
-        padding-top: 120px;
-        padding-bottom: 120px;
+        background-color: rgba(0, 0, 0, .71);
+
     }
 
     &__map {
@@ -16,4 +13,182 @@
         width: 100%;
         height: 225px;
     }
+
+    &__block,
+    &__box {
+        display: flex;
+    }
+
+    &__block {
+        flex-direction: column;
+        padding: 35px 15px 20px;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        margin-top: 120px;
+        margin-bottom: 80px;
+
+        background-color: rgba(0, 0, 0, .71);
+    }
+
+    &__box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal
+    }
+
+    &__block a {
+        padding-left: 10px;
+        color: rgba(255, 255, 255, .7);
+        text-decoration: none;
+        opacity: 0.7;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+
+        &:hover {
+            color: rgba(255, 255, 255, .9);
+            border-left: 1px solid white;
+        }
+    }
+
+    &__mail {
+        margin-bottom: 30px;
+    }
+
+    &__map {
+        padding-left: 5px;
+        width: 100%;
+        height: 245px;
+    }
+
+    &__box {
+        padding: 0 25px 35px;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    &__field,
+    &__massage {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        color: white;
+    }
+
+    &__field {
+        padding: 20px 10px 20px 10px;
+        border-bottom: 2px solid #606e77;
+    }
+
+    &__field::-webkit-input-placeholder {
+        font-size: 15px;
+        opacity: .6;
+        color: #fff;
+    }
+
+    &__field:-ms-input-placeholder {
+        font-size: 15px;
+        opacity: .6;
+        color: #fff;
+
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 51px;
+    }
+
+    &__field::-ms-input-placeholder {
+        font-size: 15px;
+        opacity: .6;
+        color: #fff;
+
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 51px;
+    }
+
+    &__field::placeholder {
+        font-size: 15px;
+        opacity: 0.6;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 51px;
+    }
+
+    &__massage {
+        margin-bottom: 35px;
+        padding: 30px 10px 30px 10px;
+        border-bottom: 2px solid #606e77;
+    }
+
+    &__massage::-webkit-input-placeholder {
+        font-size: 15px;
+        opacity: .6;
+        color: #fff;
+    }
+
+    &__massage:-ms-input-placeholder {
+        font-size: 15px;
+        opacity: .6;
+        color: #fff
+    }
+
+    &__massage::-ms-input-placeholder {
+        font-size: 15px;
+        opacity: .6;
+        color: #fff
+    }
+
+    &__massage::placeholder {
+        font-size: 15px;
+        opacity: .6;
+        color: #fff;
+
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 51px;
+    }
+
+    &__btn {
+        width: 245px;
+        border: none;
+        background-color: #71f6eb;
+        color: rgba(0, 0, 0, .7);
+        opacity: 0.7;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+
+    &__btn:hover {
+        color: #fff
+    }
+
+    @media only screen and (max-width:768px) {
+        &__btn {
+            width: 100%
+        }
+    }
+
+    &__web {
+        margin-top: 20px;
+    }
+
 }
