@@ -68,6 +68,8 @@
         line-height: 28px;
         text-transform: uppercase;
         box-shadow: 3.5px 5px 7px rgba(0, 0, 0, 0.24);
+        outline: none;
+        cursor: pointer;
 
         &:hover {
             background-color: white;

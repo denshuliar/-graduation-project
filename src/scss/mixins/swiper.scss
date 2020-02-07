@@ -19,21 +19,3 @@
 .swiper-pagination-bullet-active {
     background-color: #71f6eb;
 }
-
-.swiper-button-prev,
-.swiper-button-next {
-    width: 53px;
-    height: 53px;
-    background-color: white;
-    border-radius: 3px;
-    box-shadow: 3.1px 7.4px 11px rgba(20, 20, 21, 0.05);
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-    width: 53px;
-    height: 53px;
-    background-color: #71f6eb;
-    border-radius: 3px;
-    box-shadow: 2.3px 5.5px 11px rgba(20, 20, 21, 0.1);
-}

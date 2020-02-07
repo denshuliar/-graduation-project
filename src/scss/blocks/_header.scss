@@ -8,7 +8,11 @@
 
     &__name {
         margin-top: 206px;
-        ;
+
+    }
+
+    &__link {
+        text-decoration: none;
     }
 
     &__title {
@@ -39,6 +43,8 @@
         line-height: 28px;
         text-transform: uppercase;
         margin-top: 150px;
+        outline: none;
+        cursor: pointer;
 
         &:hover {
             opacity: 0.7;
