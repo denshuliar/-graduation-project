@@ -3279,6 +3279,8 @@ html {
   .nav__span {
     color: #77efe5;
     font-size: 21px; }
+  .nav__burger {
+    cursor: pointer; }
   .nav i {
     font-size: 30px;
     opacity: 0.6; }
@@ -4066,8 +4068,12 @@ img {
   .forma__field::-webkit-input-placeholder {
     font-size: 15px;
     opacity: .6;
-    color: #fff; }
-  .forma__field:-ms-input-placeholder {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 51px; }
+  .forma__field::-ms-input-placeholder {
     font-size: 15px;
     opacity: .6;
     color: #fff;
@@ -4079,6 +4085,14 @@ img {
     font-size: 15px;
     opacity: .6;
     color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 51px; }
+  .forma__field:-ms-input-placeholder {
+    font-size: 15px;
+    opacity: 0.6;
+    color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -4097,15 +4111,34 @@ img {
   .forma__massage::-webkit-input-placeholder {
     font-size: 15px;
     opacity: .6;
-    color: #fff; }
-  .forma__massage:-ms-input-placeholder {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
-    opacity: .6;
-    color: #fff; }
+    font-weight: 400;
+    line-height: 51px; }
   .forma__massage::-ms-input-placeholder {
     font-size: 15px;
     opacity: .6;
-    color: #fff; }
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 51px; }
+  .forma__massage::-ms-input-placeholder {
+    font-size: 15px;
+    opacity: .6;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 51px; }
+  .forma__massage:-ms-input-placeholder {
+    font-size: 15px;
+    opacity: .6;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400; }
   .forma__massage::placeholder {
     font-size: 15px;
     opacity: .6;
