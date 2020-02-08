@@ -4182,6 +4182,15 @@ img {
       margin-top: 60px;
       margin-bottom: 40px; } }
 
+::-webkit-input-placeholder {
+  font-size: 15px;
+  opacity: .6;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 51px; }
+
 .footer {
   padding: 90px 0;
   background-color: #262b2e; }
