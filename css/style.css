@@ -3404,7 +3404,7 @@ html {
     height: 100%;
     margin-bottom: 30px; }
   @media only screen and (max-width: 768px) {
-    .featured .featured {
+    .featured {
       padding-top: 80px;
       padding-bottom: 60px; }
     .featured__head {
@@ -3451,8 +3451,7 @@ html {
       margin-bottom: 80px; } }
   @media only screen and (max-width: 768px) {
     .services__text {
-      margin-bottom: 50px; } }
-  @media only screen and (max-width: 768px) {
+      margin-bottom: 50px; }
     .services {
       padding-top: 40px;
       padding-bottom: 40px; } }
@@ -3813,7 +3812,7 @@ img {
       right: 10%;
       visibility: visible;
       opacity: 1; } }
-  @media only screen and (max-width: 415px) {
+  @media only screen and (max-width: 435px) {
     .team__element {
       padding: 40px;
       padding-bottom: 15px;
@@ -3916,15 +3915,15 @@ img {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
-  @media only screen and (max-width: 683px) {
-    .says__logo {
-      display: none; } }
   @media only screen and (max-width: 768px) {
     .says {
       padding-top: 60px;
       padding-bottom: 60px; }
     .says__start {
       padding-bottom: 80px; } }
+  @media only screen and (max-width: 683px) {
+    .says__logo {
+      display: none; } }
   @media only screen and (max-width: 425px) {
     .says {
       padding-top: 30px;
@@ -4200,8 +4199,8 @@ img {
   .footer__copywrite {
     padding-top: 40px; }
   @media only screen and (max-width: 425px) {
-    .footer__footer {
-      padding: 50px 0; }
+    .footer {
+      padding: 40px 0; }
     .footer__copywrite {
       padding-top: 30px;
       font-size: 12px; } }

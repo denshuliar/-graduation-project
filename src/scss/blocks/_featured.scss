@@ -47,7 +47,7 @@
     }
 
     @media only screen and (max-width:768px) {
-        .featured {
+        & {
             padding-top: 80px;
             padding-bottom: 60px;
         }

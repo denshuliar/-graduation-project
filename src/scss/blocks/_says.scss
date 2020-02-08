@@ -105,12 +105,6 @@
         justify-content: space-between;
     }
 
-    @media only screen and (max-width:683px) {
-        &__logo {
-            display: none;
-        }
-
-    }
 
     @media only screen and (max-width:768px) {
         & {
@@ -121,6 +115,13 @@
         &__start {
             padding-bottom: 80px;
         }
+    }
+
+    @media only screen and (max-width:683px) {
+        &__logo {
+            display: none;
+        }
+
     }
 
     @media only screen and (max-width:425px) {
