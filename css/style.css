@@ -3821,7 +3821,9 @@ img {
       top: 24%;
       right: 5%;
       opacity: 1;
-      visibility: hidden; } }
+      visibility: hidden; }
+    .team {
+      padding-bottom: 10px; } }
   @media only screen and (max-width: 364px) {
     .team__title {
       margin-bottom: 5px; }
